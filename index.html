@@ -3,12 +3,13 @@
 <head>
   <title>Street Pennies</title>
 
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" href="favicon.ico?" type="image/x-icon">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/c6eeafb401.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
@@ -186,7 +187,10 @@
   .container{
     margin-top:50px;
 }
-
+ .fa, .fa-brands {
+  padding: 50px;
+  font-size: 25px;
+}
 }
 
   </style>
@@ -208,6 +212,10 @@
         <li><a href="#band">BAND</a></li>
         <li><a href="#SHOWS">SHOWS</a></li>
         <li><a href="#contact">CONTACT</a></li>
+        <li><a href="https://www.instagram.com/street.pennies/" alt="Street Pennies Instagram" class="fa fa-instagram"></a></li>
+        <li><a href="https://www.facebook.com/streetpennies/" alt="Street Pennies Facebook" class="fa fa-facebook"></a></li>
+        <li><a href="https://www.tiktok.com/@streetpennies/" alt="Street Pennies TikTok" class="fa-brands fa-tiktok"></a></li>
+
       </ul>
     </div>
   </div>
@@ -221,8 +229,11 @@
 <!-- Container (The Band Section) -->
 <div id="band" class="container text-center">
   <h3>THE BAND</h3>
-  <p><em>Placeholder Text</em></p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Street Pennies is a band that defies easy categorization. They're rooted in blues, but they're not afraid to branch out and explore other genres. Their live shows are a testament to this, as they seamlessly blend crowd favorites with deep cuts and heavy-hitting musical timbres.</p>
+
+<p>Formed in Bloomington, Indiana in the fall of 2021 in , they quickly made a name for themselves in the local scene. They've headlined over a dozen shows at The Bluebird, a legendary venue that has hosted some of the biggest names in music.</p>
+
+<p>The band is led by the powerhouse vocals of Ollie Grcich and Lucas Hallal, who command the stage with their dynamic, soulful presence. Backed by a tight-knit rhythm section and powerful soloists, the band creates a sound that is both familiar and fresh, drawing on the rich traditions of blues while pushing the boundaries of what's possible. It's music that demands to be felt, not just heard.</p>
   <br>
 
 <div class="row">
@@ -280,91 +291,19 @@
 <!-- Container (SHOWS Section) -->
 <div id="SHOWS" class="bg-1">
   <div class="container">
-    <h3 class="text-center">SHOWS DATES</h3>
-    <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
-    <ul class="list-group">
-      <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
-      <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li> 
-      <li class="list-group-item">November <span class="badge">3</span></li> 
-    </ul>
-    
-    <div class="row text-center">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="paris.jpg" alt="Paris" width="400" height="300">
-          <p><strong>Paris</strong></p>
-          <p>Friday 27 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="newyork.jpg" alt="New York" width="400" height="300">
-          <p><strong>New York</strong></p>
-          <p>Saturday 28 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-          <p><strong>San Francisco</strong></p>
-          <p>Sunday 29 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
-        </div>
-      </div>
-    </div>
+    <h3 class="text-center">UPCOMING SHOWS</h3>
+  	<iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FIndiana%2FIndianapolis&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=1&mode=AGENDA&src=Y19sOGNxZ2gwaHR1MmI1aGN0YjUzdHQ5OWFja0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA" style="border-width:0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
   </div>
+ 
   
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
-        </div>
-        <div class="modal-body">
-          <form role="form">
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
-              <input type="number" class="form-control" id="psw" placeholder="How many?">
-            </div>
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-            </div>
-              <button type="submit" class="btn btn-block">Pay 
-                <span class="glyphicon glyphicon-ok"></span>
-              </button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-          </button>
-          <p>Need <a href="#">help?</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container">
-  <h3 class="text-center">Contact</h3>
-  <p class="text-center"><em>Placeholder text</em></p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
-    </div>
-    </div>
-  </div>
-  <br>
-
+<div id="contact" class="container text-center">
+  <h3>CONTACT US</h3>
+  <p><span class="glyphicon glyphicon-envelope"></span> bhallal@streetpennies.com</p>
+</div>
 
 
 <!-- Image of location/map -->
@@ -374,7 +313,7 @@
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a><br><br>
-  <p>© 2022 Street Pennies Entertainment LLC</p>
+  <p>© 2023 Street Pennies Entertainment LLC</p>
 </footer>
 
 <div class="bgimg2">
