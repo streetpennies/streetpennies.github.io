@@ -61,6 +61,19 @@ body {
 
 
   }
+.epart {
+   background-image:url("img/ep.jpg");
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    color: white;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: auto;
+  margin-top: auto;
+
+
+  }
   .carousel-caption h3 {
     color: #fff !important;
   }
